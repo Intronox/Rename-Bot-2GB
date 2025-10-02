@@ -16,10 +16,10 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1214348787 6859865774').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1214348787 6859865774 5743248220 1993048420').split()]
 
     # channels logs
-    FORCE_SUBS   = os.environ.get("FORCE_SUBS", "") 
+    FORCE_SUBS   = os.environ.get("FORCE_SUBS", "-1002004600395") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003180553196"))
 
     # wes response configuration     
@@ -98,9 +98,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @MadflixBotz</code>
+<code>By :- @Animes_Station</code>
 
-💬 For Any Help Contact @MadflixSupport
+💬 For Any Help Contact @Gambare_Gabimaru
 """
 
 
